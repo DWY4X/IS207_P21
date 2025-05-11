@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khôi phục mật khẩu</title>
+  <link rel="stylesheet" href="pass-recovery.css">
+  <!-- Font imports nếu chưa có trong file CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@700&family=Lato&family=Kdam+Thmor+Pro&family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="recovery-tab">
+    <header class="recovery-header">
+      Khôi phục mật khẩu
+    </header>
+    <form class="recovery-form" action="#" method="post">
+      <label for="email-phone" class="visually-hidden">Email hoặc Số điện thoại</label>
+      <input type="text" id="email-phone" name="emailOrPhone" class="email-input" placeholder="Email hoặc Số điện thoại" autocomplete="username" required>
+
+      <div class="action-buttons">
+        <button type="submit" class="recovery-button">Khôi phục</button>
+        <a href="#" class="back-link">Quay lại</a>
+      </div>
+
+      <div class="divider">
+        <hr class="divider-line">
+        <span class="divider-text">HOẶC</span>
+        <hr class="divider-line">
+      </div>
+
+      <button type="button" class="google-login" aria-label="Đăng nhập bằng Google">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc71ae39efc0a2a653ee97beaf64867d6699ab7c?placeholderIfAbsent=true&apiKey=a16e8eb3709343e59b0b1c1997d522b7" alt="Google logo" class="google-icon">
+        <span class="login-text">Đăng nhập bằng Google</span>
+      </button>
+
+      <button type="button" class="facebook-login" aria-label="Đăng nhập bằng Facebook">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8300f5cd7d9a632b9f2fbccf3a161b775f5c2e89?placeholderIfAbsent=true&apiKey=a16e8eb3709343e59b0b1c1997d522b7" alt="Facebook logo" class="facebook-icon">
+        <span class="login-text">Đăng nhập bằng Facebook</span>
+      </button>
+    </form>
+  </section>
+</body>
+</html>
