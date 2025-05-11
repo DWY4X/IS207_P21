@@ -28,6 +28,9 @@
 -    **Frontend:** [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://www.javascript.com/), [Figma](https://www.figma.com/community)
 -    **Database:** [MySQL](https://www.mysql.com/), [PostgreSQL](https://www.postgresql.org/)
 
+## LINK
+-    [Figma](https://www.figma.com/design/incT5SSdbOWXhxuuGioBsx/Untitled?node-id=0-1&p=f&t=LVaTsiXfRYZmD2mD-0)
+
 ## THÀNH VIÊN NHÓM
 
 | STT | MSSV     | Họ và Tên            | GitHub                              | Email                   |
